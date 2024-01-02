@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --bg-1: rgba(3, 3, 3, 0.842);
+  --bg-2: rgba(18, 20, 19, 0.918);
+  --c1: rgba(233, 247, 238, 0.774);
+  --c2: rgb(245, 28, 28);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Share Tech Mono", monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  min-width: 100vh;
+  background-color: var(--bg-1);
+  color: var(--c1)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: var(--bg-2);
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  font-weight: 500;
+  margin-left: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.nav-item:hover,
+.active {
+  transform: scale(1.1);
+  transition: 10ms all ease-in-out;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 3px solid var(--c1);
+}
+
+.about-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.img-container {
+  width: 10rem;
+  height: 10rem;
+  transition: .5s all ease-in-out;
+}
+
+.img-container:hover {
+  transform: scale(1.2) rotate(360deg);
+  transition: .5s all ease-in-out;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.title-first {
+  color: var(--c1);
+}
+
+.title-second {
+  color: var(--c2);
+}
+
+.dynamic-text {
+  font-size: 50px;
+  color: var(--c2);
+}
+
+.cursor {
+  display: inline-block;
+  background-color: var(--c1);
+  animation: blinker .8s infinite;
+  width: 5px;
+}
+
+@keyframes blinker {
+
+  0%,
+  100% {
+    background-color: var(--c1);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    opacity: 0%;
   }
 }
