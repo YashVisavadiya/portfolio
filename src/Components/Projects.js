@@ -1,12 +1,28 @@
 import React from "react";
+import { Title } from "./Title";
+import { PROJECTS } from "../Contents/Information";
+import { ProjectCard } from "./ProjectCard";
 
-const Projects = () => {
+export const Projects = () => {
   return (
-    <div>
-      This is Projects
-      <div>more Projects</div>
-    </div>
+    <>
+      <Title First={`<My`} Second={`Projects/>`} />
+      <div className="container-fluid project-container my-5 ">
+        {PROJECTS.map((project, index) => {
+          return (
+            <div key={index}>
+              <ProjectCard
+                name={project.name}
+                description={project.description}
+                stack={project.stack}
+                sourceCode={project.sourceCode}
+                img={project.img}
+                preview={project.preview}
+              />
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
-
-export default Projects;

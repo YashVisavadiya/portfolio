@@ -23,6 +23,8 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 10;
+  backdrop-filter: blur(4px);
 }
 
 .nav-item {
@@ -53,7 +55,7 @@ body {
   text-align: justify;
 }
 
-img {
+.about-container .img-container img {
   width: 100%;
   height: inherit;
   object-fit: cover;
@@ -181,4 +183,56 @@ img {
 
 a {
   color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, .33fr);
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  gap: 50px 100px;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: rgba(5, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border-radius: 1rem;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  transition: .2s all ease-in-out;
+}
+
+.project-container .project-card .project-img img {
+  border-radius: 1rem;
+}
+
+.project-title p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.project-description p {
+  text-align: justify;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
