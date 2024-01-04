@@ -1,3 +1,14 @@
+export const DESCRIPTION =
+  "Hey there! 👋 I'm Yash, an Award-winning competitive programmer skilled in Python with a track record of success in online and offline contests. Winner of the Gateway Group hackathon in ASP.NET technology. Proven ability to excel in individual and team settings. Committed to continuous personal and professional growth, including public speaking and leadership development.";
+
+export const INTEREST_LIST = [
+  "A Tech Enthusiast",
+  "A Gamer",
+  "An AI & ML Enthusiast",
+  "A Web Developer",
+  "A Competetive Programmer",
+];
+
 export const SKILLS = [
   "react.svg",
   "nextjs.svg",

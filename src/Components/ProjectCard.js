@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const ProjectCard = (props) => {
   return (
     <>
-      <div className="project-card p-3">
+      <div className="project-card p-3 pb-4">
         <div className="project-img mb-3">
           <img src={require(`./../Assets/Projects/${props.img}`)} alt="" />
         </div>
@@ -14,7 +14,7 @@ export const ProjectCard = (props) => {
         <div className="project-description px-3">
           <p>{props.description}</p>
         </div>
-        <div className="project-links">
+        <div className="project-links pb-3">
           <a href={`${props.sourceCode}`}>
             <i class="fa-brands fa-github fs-3"></i>
           </a>

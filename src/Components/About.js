@@ -2,6 +2,7 @@ import React from "react";
 import { Title } from "./Title";
 import { TypingText } from "./TypingText";
 import { SocialLinks } from "./SocialLinks";
+import { DESCRIPTION } from "../Contents/Information";
 
 export const About = () => {
   return (
@@ -22,15 +23,9 @@ export const About = () => {
 
         <TypingText />
 
-        <div className="description fs-4 my-3">
-          Hey there! 👋 I'm Yash, an Award-winning competitive programmer
-          skilled in Python with a track record of success in online and offline
-          contests. Winner of the Gateway Group hackathon in ASP.NET technology.
-          Proven ability to excel in individual and team settings. Committed to
-          continuous personal and professional growth, including public speaking
-          and leadership development.
-        </div>
+        <div className="description fs-4 my-3">{DESCRIPTION}</div>
 
+        <p className="text-center fs-5">Find me on</p>
         <SocialLinks />
       </div>
     </>
