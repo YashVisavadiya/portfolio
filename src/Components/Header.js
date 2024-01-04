@@ -1,4 +1,5 @@
 import React from "react";
+import { Title } from "./Title";
 
 export const Header = () => {
   const handleClick = (e) => {
@@ -16,7 +17,8 @@ export const Header = () => {
       <nav className="navbar navbar-expand-lg fs-5" data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Potfolio
+            <span className="title-first">{"<Yash"}</span>
+            <span className="title-second">{"Visavadiya/>"}</span>
           </a>
           <button
             className="navbar-toggler"
@@ -37,11 +39,6 @@ export const Header = () => {
                   aria-current="page"
                   onClick={handleClick}
                 >
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
                   About
                 </a>
               </li>

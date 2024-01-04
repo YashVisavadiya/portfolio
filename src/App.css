@@ -252,3 +252,61 @@ img {
   height: 100%;
   box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
 }
+
+.contact-container {
+  display: grid;
+  grid-template-columns: .6fr auto;
+  gap: 40px;
+}
+
+.contact-info {
+  background: rgba(5, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+
+  border-radius: 1rem;
+  min-height: 300px;
+  padding: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(5, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border-radius: 1rem;
+  z-index: 1;
+  padding: 40px;
+}
+
+form>input,
+form>textarea {
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  color: #ddd;
+  background-color: #222;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+form>textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-btn {
+  cursor: pointer;
+  transition: .35s all ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #c70a0a;
+  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+}
