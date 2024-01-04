@@ -27,13 +27,13 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    name: "Booking.com clone",
+    name: "Instagram Clone",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
+      "Instagram Clone in React.js & Firebase. Immersive social app with follow, post, like & comment features. TailwindCSS for slick UI. Built with Context API & custom hooks for optimized UX.",
+    stack: ["React", "NodeJS", "Express", "Firebase", "TailwindCSS"],
+    sourceCode: "https://github.com/YashVisavadiya/Instagram-clone",
     img: "bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+    preview: "#",
   },
   {
     name: "Cyberscourge Hub",

@@ -15,6 +15,7 @@ export const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg fs-5" data-bs-theme="dark">
         <div className="container-fluid">
+          {/* eslint-disable-next-line */}
           <a className="navbar-brand" href="#">
             <span className="title-first">{"<Yash"}</span>
             <span className="title-second">{"Visavadiya/>"}</span>
