@@ -5,7 +5,7 @@ import { TypingText } from "./TypingText";
 export const About = () => {
   return (
     <>
-      <div className="container about-container">
+      <div className="container-fluid about-container">
         <div className="img-container mt-2 mb-3">
           <img
             src={

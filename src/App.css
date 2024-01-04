@@ -49,6 +49,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 50px 0 50px;
+  text-align: justify;
 }
 
 img {
