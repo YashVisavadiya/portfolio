@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4eacd8d8.css",
-    "main.js": "/portfolio/static/js/main.b08e4eff.js",
+    "main.js": "/portfolio/static/js/main.0821bfb2.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/bookingcom.jpg": "/portfolio/static/media/bookingcom.09b83e5a1d19fec34ca6.jpg",
-    "static/media/cyberscourge.jpg": "/portfolio/static/media/cyberscourge.52bc08d3140a74ba4cc7.jpg",
-    "static/media/jotion.jpg": "/portfolio/static/media/jotion.572970b37a4ebff46d39.jpg",
+    "static/media/SuperCars.png": "/portfolio/static/media/SuperCars.cd096c9daa30d3e0a09a.png",
+    "static/media/Instagram.png": "/portfolio/static/media/Instagram.6d472bee2a0f3c21d17f.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.6ec8ab83aa414b2ee021.png",
+    "static/media/Todos-list.png": "/portfolio/static/media/Todos-list.bb30ee5ac71a5c5e8aea.png",
+    "static/media/TaskManagementSystem.png": "/portfolio/static/media/TaskManagementSystem.80908cc4974372b32ee4.png",
     "static/media/linux.svg": "/portfolio/static/media/linux.33db4f2325f882b65581.svg",
     "static/media/nodejs.svg": "/portfolio/static/media/nodejs.b0d6c7cead1cf51d8ac0.svg",
     "static/media/react.svg": "/portfolio/static/media/react.b4aadc0713bb11142756.svg",
@@ -23,11 +25,11 @@
     "static/media/html.svg": "/portfolio/static/media/html.0c8899975fbb5345002d.svg",
     "static/media/framer-motion.svg": "/portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8.svg",
     "main.4eacd8d8.css.map": "/portfolio/static/css/main.4eacd8d8.css.map",
-    "main.b08e4eff.js.map": "/portfolio/static/js/main.b08e4eff.js.map",
+    "main.0821bfb2.js.map": "/portfolio/static/js/main.0821bfb2.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eacd8d8.css",
-    "static/js/main.b08e4eff.js"
+    "static/js/main.0821bfb2.js"
   ]
 }
