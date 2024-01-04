@@ -1,5 +1,4 @@
 import React from "react";
-import { Title } from "./Title";
 
 export const Header = () => {
   const handleClick = (e) => {
@@ -38,37 +37,42 @@ export const Header = () => {
                   className="nav-link active"
                   aria-current="page"
                   onClick={handleClick}
+                  href="#About"
                 >
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" onClick={handleClick}>
                   Education
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
+                <a className="nav-link" onClick={handleClick} href="#Skills">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
+                <a className="nav-link" onClick={handleClick} href="#Projects">
                   Projects
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#" onClick={handleClick}>
                   Work Experience
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#" onClick={handleClick}>
                   Achievments
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="#" onClick={handleClick}>
+                <a
+                  className="nav-link"
+                  onClick={handleClick}
+                  href="#Contact-Me"
+                >
                   Contact Me
                 </a>
               </li>

@@ -6,7 +6,7 @@ import { DESCRIPTION } from "../Contents/Information";
 
 export const About = () => {
   return (
-    <>
+    <section id="About">
       <div className="container-fluid about-container mb-3">
         <div className="img-container mt-2 mb-3">
           <img
@@ -28,6 +28,6 @@ export const About = () => {
         <p className="text-center fs-5">Find me on</p>
         <SocialLinks />
       </div>
-    </>
+    </section>
   );
 };

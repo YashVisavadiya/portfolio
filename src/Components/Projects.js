@@ -5,7 +5,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   return (
-    <>
+    <section id="Projects">
       <Title First={`<My`} Second={`Projects/>`} />
       <div className="container-fluid project-container my-5 ">
         {PROJECTS.map((project, index) => {
@@ -23,6 +23,6 @@ export const Projects = () => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };

@@ -4,7 +4,7 @@ import { SKILLS } from "./../Contents/Information";
 
 const Skills = () => {
   return (
-    <>
+    <section id="Skills">
       <Title First={"<Skills"} Second={"&Tools/>"} />
       <div className="container skills-container">
         {SKILLS.map((skill, index) => {
@@ -15,7 +15,7 @@ const Skills = () => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
 
