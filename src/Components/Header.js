@@ -70,6 +70,11 @@ export const Header = () => {
                   Achievments
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" onClick={handleClick}>
+                  Contact Me
+                </a>
+              </li>
             </ul>
           </div>
         </div>

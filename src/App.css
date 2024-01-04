@@ -209,11 +209,11 @@ img {
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
   border-radius: 1rem;
+  transition: .2s all ease-in-out;
 }
 
 .project-card:hover {
   transform: scale(1.05);
-  transition: .2s all ease-in-out;
 }
 
 .project-container .project-card .project-img img {
@@ -235,4 +235,20 @@ img {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px
+}
+
+.link-container {
+  background: rgba(5, 0, 0, 0.3);
+  padding: .5rem;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
 }

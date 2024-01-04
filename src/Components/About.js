@@ -1,11 +1,12 @@
 import React from "react";
 import { Title } from "./Title";
 import { TypingText } from "./TypingText";
+import { SocialLinks } from "./SocialLinks";
 
 export const About = () => {
   return (
     <>
-      <div className="container-fluid about-container">
+      <div className="container-fluid about-container mb-3">
         <div className="img-container mt-2 mb-3">
           <img
             src={
@@ -29,6 +30,8 @@ export const About = () => {
           continuous personal and professional growth, including public speaking
           and leadership development.
         </div>
+
+        <SocialLinks />
       </div>
     </>
   );
